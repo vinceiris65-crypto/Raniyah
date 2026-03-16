@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Raniyah 🇨🇳</title>
+    <meta name="description" content="A special digital gift for Raniyah from Vince in Pakistan.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-glow"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Background Elements -->
+    <canvas id="particle-canvas"></canvas>
+    <div id="cherry-blossoms"></div>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Welcome Section -->
+        <section id="hero" class="section">
+            <h1 class="reveal-text delay-1 glowname">Raniyah</h1>
+            <p class="reveal-text delay-2 subtitle">This small digital world is created especially for you.</p>
+            <p class="reveal-text delay-3 subtitle-small">From Vince in Pakistan.</p>
+        </section>
+
+        <!-- Friendship Message -->
+        <section id="friendship-msg" class="section">
+            <div class="glass-card full-center scroll-reveal">
+                <p class="step-text">Different countries.</p>
+                <p class="step-text delay-ms-1">Different cultures.</p>
+                <p class="step-text delay-ms-2">But somehow, the internet allowed two people to meet.</p>
+                <p class="step-text delay-ms-3 highlight-text">And now we are already friends.</p>
+            </div>
+        </section>
+
+        <!-- Best Friend Invitation -->
+        <section id="invitation" class="section">
+            <div class="invitation-container scroll-reveal">
+                <h2 class="glowing-title">✨ Raniyah, Will You Become My Best Friend? ✨</h2>
+                <div class="button-group">
+                    <button id="btn-yes" class="glass-btn primary">💖 Yes, Best Friends Forever</button>
+                    <button id="btn-already" class="glass-btn secondary">🌸 Already Best Friends</button>
+                </div>
+                <!-- Dynamic text container for button response -->
+                <div id="response-container" class="hidden">
+                    <p id="response-text" class="glow-text"></p>
+                    <p id="response-subtext"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connection Map -->
+        <section id="connection" class="section">
+            <div class="connect-container scroll-reveal">
+                <div class="flags">
+                    <div class="country">
+                        <span class="flag">🇨🇳</span>
+                        <span class="name">China</span>
+                    </div>
+                    <div class="earth">🌏</div>
+                    <div class="country">
+                        <span class="flag">🇵🇰</span>
+                        <span class="name">Pakistan</span>
+                    </div>
+                </div>
+                <div class="connection-line">
+                    <div class="glowing-dot"></div>
+                </div>
+                <div class="connect-text">
+                    <p>Distance cannot stop friendship.</p>
+                    <p>China and Pakistan connected by the internet.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Message Card -->
+        <section id="message" class="section">
+            <div class="glass-card letter-card scroll-reveal">
+                <h3>A Message from Vince</h3>
+                <div class="letter-content" id="typing-trigger">
+                    <p>Hello Raniyah,</p>
+                    <p>This website is just a small creative gift.</p>
+                    <p>I wanted to build something unique instead of sending a normal message.</p>
+                    <p>So I created this small digital world for you.</p>
+                    <p>I hope it makes you smile.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Footer -->
+        <section id="footer" class="section">
+            <div class="final-message scroll-reveal">
+                <p class="final-step">Sometimes the internet introduces people.</p>
+                <p class="final-step delay-ms-1">Sometimes it creates friendships.</p>
+                <p class="final-step delay-ms-2">And sometimes it creates best friends.</p>
+                
+                <div class="signature scroll-reveal">
+                    <p>For Raniyah 🇨🇳</p>
+                    <p>From Vince 🇵🇰</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Canvas Confetti Library for button effects -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <!-- Custom logic -->
+    <script src="script.js"></script>
+</body>
+</html>
